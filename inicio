@@ -1,2 +1,323 @@
+------------------------------------------------------------- Registro -------------------------------------------------------------
 
-asdasdasdasdasdasd
+<!DOCTYPE html>
+
+<html>
+     <head>
+     	<meta charset="utf-8">
+          <link rel="stylesheet" href="Registrarse.css">
+     </head>
+     <body>
+     	 <form class="Formulario">
+
+     	 	<h1>Registrarse</h1>
+     	 	 <div class="Contenedor">
+
+     	 	 <div class="input-contenedor">
+     	 	 	 <input type="text" placeholder="Nombre Completo">
+     	 	      </div>
+
+     	 	      <div class="input-contenedor">
+     	 	 	 <input type="text" placeholder="Correo Electrónico">
+     	 	      </div>
+
+     	 	      <div class="input-contenedor">
+     	 	 	 <input type="password" placeholder="Contraseña">
+     	 	      </div>
+
+     	 	      <input type="submit" value="Registarse" class="button">
+
+     	 	      <p>Al registarse, usted acepta nuestras Condiciones de Uso y Política de privacidad.</p>
+                     <p>¿Ya tienes una cuenta?<a class="link" href="IniciarSesion.html">Iniciar Sesion</a></p>
+                </div>
+           </form>
+     </body>
+</html>
+
+--------------------------------------------------- PARTE CSS ---------------------------------------------------
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	background: linear-gradient(150deg, #FFC300, #C70039);
+	height: 100vh;
+
+}
+
+.Formulario{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	background: white;
+	border-radius: 10px;
+}
+
+.Formulario h1{
+	text-align: center;
+	color: #1A2537;
+	font-size: 40px;
+
+}
+
+.input-contenedor{
+	text-align: center;
+	margin-bottom: 5px;
+	border: 1px solid #a;
+}
+
+.Contenedor{
+	text-align: center;
+}
+
+.Contenedor .button{
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.Contenedor p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.input-contenedor p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+
+}
+
+.Contenedor [type="text"]{
+	font-size: 18px;
+	width: 82%;
+    line-height: 0.5;
+    margin-bottom: 5px;
+
+}
+
+.Contenedor [type="password"]{
+	font-size: 18px;
+	width: 82%;
+    line-height: 0.5;
+    margin-bottom: 5px;
+
+}
+
+
+------------------------------------------------------------- Inicio de Sesion -------------------------------------------------------------
+
+<!DOCTYPE html>
+
+<html>
+     <head>
+     	<meta charset="utf-8">
+        <link rel="stylesheet" href="IniciarSesion.css">
+     </head>
+     <body>
+     	 <form class="Formulario">
+
+     	 	<h1>Iniciar Sesión</h1>
+     	 	 <div class="Contenedor">
+
+     	 	      <div class="input-contenedor">
+     	 	 	 <input type="text" placeholder="Correo Electrónico">
+     	 	      </div>
+
+     	 	      <div class="input-contenedor">
+     	 	 	 <input type="password" placeholder="Contraseña">
+     	 	      </div>
+
+     	 	      <input type="submit" value="Login" class="button">
+
+     	 	      <p>Al registarse, usted acepta nuestras Condiciones de Uso y Política de privacidad.</p>
+                     <p>¿No tienes una cuenta?<a class="link" href="Registrarse.html">Registrate</a></p>
+                </div>
+           </form>
+     </body>
+</html>
+
+--------------------------------------------------- PARTE CSS ---------------------------------------------------
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	background: linear-gradient(150deg, #FFC300, #C70039);
+	height: 100vh;
+
+}
+
+.Formulario{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	background: white;
+	border-radius: 10px;
+}
+
+.Formulario h1{
+	text-align: center;
+	color: #1A2537;
+	font-size: 40px;
+
+}
+
+.input-contenedor{
+	text-align: center;
+	margin-bottom: 5px;
+	border: 1px solid #a;
+}
+
+.Contenedor{
+	text-align: center;
+}
+
+.Contenedor .button{
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.Contenedor p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.input-contenedor p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+
+}
+
+.Contenedor [type="text"]{
+	font-size: 18px;
+	width: 82%;
+    line-height: 0.5;
+    margin-bottom: 5px;
+
+}
+
+.Contenedor [type="password"]{
+	font-size: 18px;
+	width: 82%;
+    line-height: 0.5;
+    margin-bottom: 5px;
+
+}
+
+------------------------------------------------------------- Informar Problema -------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="InformarProblema.css">
+</head>
+<body>
+    <div class="container-form">
+        <h1>Contáctanos</h1>
+        <form action="#" autocomplete="off">
+            <input type="text" name="nombre" placeholder="Nombre y Apellido" class="campo">
+            <input type="emal" name="email" placeholder="Tu Email" class="campo">
+            <textarea name="mensaje" placeholder="Cuéntamos cómo podemos ayudarte"></textarea>
+            <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
+            <p>¡Muchas gracias por brindarnos su conmentario! Si tienes algun problema o  sugerencia para mejorar la aplicación, ¡Nos encantaría escucharla!</p>
+        </form>
+    </div>
+</body>
+</html>       
+
+--------------------------------------------------- Parte CSS ---------------------------------------------------
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	background: linear-gradient(150deg, #2471A3, #5499C7, #7FB3D5);
+	height: 100vh;
+
+}
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+.container-form h1{
+    margin-bottom: 15px;
+    font-size: 35px
+
+}
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.container-form a i{
+    color: orange;
+    margin-right: 10px;
+}
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 17px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+    background: #e39403;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
