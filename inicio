@@ -320,4 +320,274 @@ body {
     background: #e39403;
 }
 
----------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------- Cuenta Profesional -------------------------------------------------------------
+
+<!DOCTYPE html>
+
+<html>
+     <head>
+     	<meta charset="utf-8">
+          <link rel="stylesheet" href="CuentaProfesional.css">
+     </head>
+     <body>
+     	 <form class="Formulario">
+
+     	 	<h1>Registrarse como Profesional</h1>
+     	 	 <div class="Contenedor">
+
+     	 	 <div class="input-contenedor">
+     	 	 	 <input type="text" placeholder="Nombre Completo">
+     	 	      </div>
+
+     	 	      <div class="input-contenedor">
+     	 	 	 <input type="text" placeholder="Correo Electrónico">
+     	 	      </div>
+
+     	 	      <div class="input-contenedor">
+     	 	 	 <input type="password" placeholder="Contraseña">
+     	 	      </div>
+
+                     <div class="input-contenedor">
+                     <input type="text" placeholder="Nombre de la Institución">
+                     </div>
+
+     	 	      <input type="submit" value="Registarse" class="button">
+
+     	 	      <p>Al registarse, usted acepta nuestras Condiciones de Uso y Política de privacidad.</p>
+                     <p>¿Ya tiene una cuenta profesional?<a class="link" href="IniciarSesionProfesional.html">Iniciar Sesion</a></p>
+                </div>
+           </form>
+     </body>
+</html>
+
+------------------------------------------------------------- Parte CSS ------------------------------------------------------------- 
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	background: linear-gradient(150deg, #17A589, #1ABC9C, #48C9B0);
+	height: 100vh;
+
+}
+
+.Formulario{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	background: white;
+	border-radius: 10px;
+	
+}
+
+.Formulario h1{
+	text-align: center;
+	color: #1A2537;
+	font-size: 40px;
+
+}
+
+.input-contenedor{
+	text-align: center;
+	margin-bottom: 5px;
+	border: 1px solid #a;
+}
+
+.Contenedor{
+	text-align: center;
+}
+
+.Contenedor .button{
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.Contenedor p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.input-contenedor p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+
+}
+
+.Contenedor [type="text"]{
+	font-size: 18px;
+	width: 82%;
+    line-height: 0.5;
+    margin-bottom: 5px;
+
+}
+
+.Contenedor [type="password"]{
+	font-size: 18px;
+	width: 82%;
+    line-height: 0.5;
+    margin-bottom: 5px;
+
+}
+
+------------------------------------------------------------- IniciarSesionProfesional -------------------------------------------------------------
+
+<!DOCTYPE html>
+
+<html>
+     <head>
+     	<meta charset="utf-8">
+      <link rel="stylesheet" href="IniciarSesionProfesional.css">
+     </head>
+     <body>
+     	 <form class="Formulario">
+
+     	 	<h1>Iniciar Sesión como Profesional</h1>
+     	 	 <div class="Contenedor">
+
+     	 	      <div class="input-contenedor">
+     	 	 	 <input type="text" placeholder="Correo Electrónico">
+     	 	      </div>
+
+     	 	      <div class="input-contenedor">
+     	 	 	 <input type="password" placeholder="Contraseña">
+     	 	      </div>
+
+     	 	      <input type="submit" value="Login" class="button">
+
+     	 	      <p>Al registarse, usted acepta nuestras Condiciones de Uso y Política de privacidad.</p>
+                     <p>¿No tienes una cuenta?<a class="link" href="CuentaProfesional.html">Registrate</a></p>
+                </div>
+           </form>
+     </body>
+</html>
+
+------------------------------------------------------------- Parte CSS -------------------------------------------------------------
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+    background: linear-gradient(150deg, #17A589, #1ABC9C, #48C9B0);
+	height: 100vh;
+
+}
+
+.Formulario{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	background: white;
+	border-radius: 10px;
+}
+
+.Formulario h1{
+	text-align: center;
+	color: #1A2537;
+	font-size: 40px;
+
+}
+
+.input-contenedor{
+	text-align: center;
+	margin-bottom: 5px;
+	border: 1px solid #a;
+}
+
+.Contenedor{
+	text-align: center;
+}
+
+.Contenedor .button{
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.Contenedor p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.input-contenedor p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+
+}
+
+.Contenedor [type="text"]{
+	font-size: 18px;
+	width: 82%;
+    line-height: 0.5;
+    margin-bottom: 5px;
+
+}
+
+.Contenedor [type="password"]{
+	font-size: 18px;
+	width: 82%;
+    line-height: 0.5;
+    margin-bottom: 5px;
+
+}
+
+------------------------------------------------------------- Ajustes ------------------------------------------------------------- 
+
+<!DOCTYPE html>
+
+<html>
+     <head>
+     	<meta charset="utf-8">
+      <link rel="stylesheet" href="Ajustes.css">
+     </head>
+     <body>
+     <h1>Ajustes</h1>
+     <main>
+          <section>
+               <h1>Ayuda</h1>
+               <p><a target="_blank" href="Informar Problema.html">Reportar un Problema</a></p>
+          </section>
+          <section>
+               <h1>Cuenta</h1>
+               <p><a target="_blank" href="IniciarSesion.html">Iniciar Sesión</a></p>
+               <p><a target="_blank" href="Registrarse.html">Registrarse</a></p>
+          </section>
+          <section>
+               <h1>Profesional</h1>
+               <p><a target="_blank" href="IniciarSesionProfesional.html">Iniciar Sesión como Profesional</a></p>
+               <p><a target="_blank" href="CuentaProfesional.html">Registrarse como Profesional</a></p>
+          </section>
+          <section>
+               <h1>Enviar feedback</h1>
+          </section>
+          <section>
+               <h1>Invitar amigos</h1>
+               </section>
+          <section>
+               <h1>Cerrar Sesión</h1>
+          </section>
+     </main>
+     </body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------
