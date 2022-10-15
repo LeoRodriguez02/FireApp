@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	background: linear-gradient(150deg, #17A589, #1ABC9C, #48C9B0);
+	height: 100vh;
+
+}
+
+.Formulario{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	background: white;
+	border-radius: 10px;
+	
+}
+
+.Formulario h1{
+	text-align: center;
+	color: #1A2537;
+	font-size: 40px;
+
+}
+
+.input-contenedor{
+	text-align: center;
+	margin-bottom: 5px;
+	border: 1px solid #a;
+}
+
+.Contenedor{
+	text-align: center;
+}
+
+.Contenedor .button{
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.Contenedor p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.input-contenedor p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+
+}
+
+.Contenedor [type="text"]{
+	font-size: 18px;
+	width: 82%;
+    line-height: 0.5;
+    margin-bottom: 5px;
+
+}
+
+.Contenedor [type="password"]{
+	font-size: 18px;
+	width: 82%;
+    line-height: 0.5;
+    margin-bottom: 5px;
+
+}
