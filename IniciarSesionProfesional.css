@@ -2,10 +2,10 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Arial;
-    background: linear-gradient(150deg, #ec7a1d, #1ABC9C, #48C9B0);
-
-	background-image: url("https://www.lavoz.com.ar/resizer/8TnyryxJuX1HwyHZ_rGkKrhekyU=/640x427/smart/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/4I7RUOOFZJESZNKPSFV66IVL3E.jpg");
 	height: 100vh;
+    background: linear-gradient(150deg, #ec7a1d, #bc681a, #c98248);
+	
+	background-image: url("https://www.lavoz.com.ar/resizer/8TnyryxJuX1HwyHZ_rGkKrhekyU=/640x427/smart/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/4I7RUOOFZJESZNKPSFV66IVL3E.jpg");
 	background-repeat:no-repeat;
 	background-size: cover;
 }

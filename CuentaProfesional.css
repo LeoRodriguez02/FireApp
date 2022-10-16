@@ -2,9 +2,13 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Arial;
-	background: linear-gradient(150deg, #17A589, #1ABC9C, #48C9B0);
 	height: 100vh;
-
+	
+    background: linear-gradient(150deg, #ec7a1d, #bc681a, #c98248);
+	
+	background-image: url("https://www.lavoz.com.ar/resizer/8TnyryxJuX1HwyHZ_rGkKrhekyU=/640x427/smart/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/4I7RUOOFZJESZNKPSFV66IVL3E.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
 }
 
 .Formulario{
@@ -13,9 +17,16 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 400px;
-	background: white;
+	/* background: white; */
 	border-radius: 10px;
 	
+
+	background: linear-gradient(0deg, #a0acaa, #ffffff);
+
+	box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.75);
+
 }
 
 .Formulario h1{
