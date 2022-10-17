@@ -2,10 +2,11 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Arial;
-	height: 100vh;
+	height: 100%;
+	width: 100%;
     background: linear-gradient(150deg, #ec7a1d, #bc681a, #c98248);
 	
-	background-image: url("https://www.lavoz.com.ar/resizer/8TnyryxJuX1HwyHZ_rGkKrhekyU=/640x427/smart/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/4I7RUOOFZJESZNKPSFV66IVL3E.jpg");
+	background-image: url("https://www.rionegro.com.ar/wp-content/uploads/2021/06/multimedia.normal.9082894d46cfbfe2.6f627469656e65696d6167656e5f6e6f726d616c2e6a7067.jpg");
 	background-repeat:no-repeat;
 	background-size: cover;
 }
