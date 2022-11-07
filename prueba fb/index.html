@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<form autocomplete="off">
+		<h2 class="form__h2">Crear un nuevo Usuario</h2>
+		<input type="text" placeholder="Nombre Completo" id="nombre" required>
+		<input type="email" placeholder="Mail" id="mail" required>
+		<input type="text" placeholder="Contraseña" id="contraseña" required>
+		<input type="submit" value="Crear Usuario" id="btn-enviar">
+	</form>
+
+
+	<script type="module">
+		// Import the functions you need from the SDKs you need
+		import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js";
+		// TODO: Add SDKs for Firebase products that you want to use
+		// https://firebase.google.com/docs/web/setup#available-libraries
+	  
+		import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-auth.js";
+		// Your web app's Firebase configuration
+		const firebaseConfig = {
+		  apiKey: "AIzaSyDsuo2l3qmNGDap-BpXoDj-t6NwhGETtN8",
+		  authDomain: "fireapp-95dbe.firebaseapp.com",
+		  projectId: "fireapp-95dbe",
+		  storageBucket: "fireapp-95dbe.appspot.com",
+		  messagingSenderId: "84833277177",
+		  appId: "1:84833277177:web:aee3d5998f38a04626fe28"
+		};
+	  
+		// Initialize Firebase
+		const app = initializeApp(firebaseConfig);
+	  </script>
+
+	<script src="codigo.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
