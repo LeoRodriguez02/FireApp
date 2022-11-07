@@ -8,7 +8,7 @@
 <body>
 	<form autocomplete="off">
 		<h2 class="form__h2">Crear un nuevo Usuario</h2>
-		<input type="text" placeholder="Nombre Completo" id="nombre" required>
+		<input type="text" placeholder="Nombre Completo" id="nombre">
 		<input type="email" placeholder="Mail" id="mail" required>
 		<input type="text" placeholder="Contraseña" id="contraseña" required>
 		<input type="submit" value="Crear Usuario" id="btn-enviar">
@@ -20,8 +20,7 @@
 		import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js";
 		// TODO: Add SDKs for Firebase products that you want to use
 		// https://firebase.google.com/docs/web/setup#available-libraries
-	  
-		import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-auth.js";
+		import { getAuth } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-auth.js";
 		// Your web app's Firebase configuration
 		const firebaseConfig = {
 		  apiKey: "AIzaSyDsuo2l3qmNGDap-BpXoDj-t6NwhGETtN8",
@@ -31,8 +30,8 @@
 		  messagingSenderId: "84833277177",
 		  appId: "1:84833277177:web:aee3d5998f38a04626fe28"
 		};
-	  
 		// Initialize Firebase
+		const auth = firebase.auth();
 		const app = initializeApp(firebaseConfig);
 	  </script>
 
