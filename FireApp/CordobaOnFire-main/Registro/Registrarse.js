@@ -17,7 +17,8 @@ button.addEventListener("click", async(e)=>{
     try{
     const credencial = await createUserWithEmailAndPassword(auth, correo, cont);
     alert("Se ha registrado exitosamente");
-    window.open("https://youtube.com")
+    window.open("./../Inicio.html");
+    // window.close()
     }
     catch (error){
         if (error.code === 'auth/invalid-email'){

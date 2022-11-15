@@ -1,0 +1,28 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background: #333;
+    width: 100vw;
+    height: 50px;
+}
+.contenedor{
+    position: absolute;
+    right: 0px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    background: #999;
+    border-radius: 15px;
+
+}
+.contenedor:hover{
+    background: #555;
+    transition: 0.5s;
+}
+.logout{
+    border: none;
+    background: transparent;
+}
