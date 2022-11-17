@@ -3,8 +3,8 @@ margin:0px
 }
 .barra {
     font-family: 'Lato', sans-serif;
-    width:4%;
-    height:4%;
+    width: 15px;;
+    height: 15px;;
     position:fixed;
     transition: .4s all ;
     z-index: 1;  
@@ -86,4 +86,26 @@ margin:0px
 }
 .mapa{
     min-height: 100vh;
+}
+.botones{
+    text-align: right;
+    background: transparent;
+    width: 100vw;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.LgOut{
+    margin-right: 20px;
+    border-radius: 8px;
+    padding: 8px;
+    border:none;
+    background: #bbb;
+}
+.LgOut:hover{
+    background: #999;
+    transition: .3s;
+}
+.LgOut:active{
+    background: #555;
 }

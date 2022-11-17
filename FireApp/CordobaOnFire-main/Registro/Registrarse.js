@@ -2,6 +2,9 @@
 import './firebase.js';
 import { createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js";
 import { auth } from './firebase.js';
+// import './../inicio.js'
+
+
 
 const mail = document.getElementById("correo")
 const pass = document.getElementById("password");
@@ -17,9 +20,8 @@ button.addEventListener("click", async(e)=>{
     try{
     const credencial = await createUserWithEmailAndPassword(auth, correo, cont);
     alert("Se ha registrado exitosamente");
-    window.open("./../Inicio.html");
+    window.open("./../Mapa/Mapa.html");}
     // window.close()
-    }
     catch (error){
         if (error.code === 'auth/invalid-email'){
             alert("Formato de email inválido detectado")

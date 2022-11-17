@@ -4,6 +4,7 @@
      <head>
      	<meta charset="utf-8">
         <link rel="stylesheet" href="IniciarSesion.css">
+		<script src="./IniciarSesion.js" type="module"></script>
      </head>
      <body>
      	 <form class="Formulario">
@@ -12,14 +13,14 @@
      	 	 <div class="Contenedor">
 
      	 	      <div class="input-contenedor">
-     	 	 	 <input type="text" placeholder="Correo Electrónico">
+     	 	 	 <input type="text" class="emailUser" placeholder="Correo Electrónico" required>
      	 	      </div>
 
      	 	      <div class="input-contenedor">
-     	 	 	 <input type="password" placeholder="Contraseña">
+     	 	 	 <input type="password" class="passUser" placeholder="Contraseña" required>
      	 	      </div>
 
-     	 	      <input type="submit" value="Login" class="button">
+     	 	      <input type="submit" value="Login" class="buttonLogin">
 
      	 	      <p>Al registarse, usted acepta nuestras Condiciones de Uso y Política de privacidad.</p>
                      <p>¿No tienes una cuenta?<a class="link" href="Registrarse.html">Registrate</a></p>

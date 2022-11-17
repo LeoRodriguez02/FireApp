@@ -15,9 +15,7 @@ body {
 	width: 400px;
 	background: white;
 	border-radius: 10px;
-
-background: linear-gradient(0deg, #a0acaa, #ffffff);
-
+	background: linear-gradient(0deg, #a0acaa, #ffffff);
 	box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.75);
 	-webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.75);
@@ -81,4 +79,21 @@ background: linear-gradient(0deg, #a0acaa, #ffffff);
     line-height: 0.5;
     margin-bottom: 5px;
 
+}
+input{
+	background: transparent;
+	border:none;
+	border-bottom: 4px inset #FFC300;
+
+}
+input:hover{
+	border-radius: 10px;
+	background: #aaa;
+	transition: 0.6s;
+}
+input:focus{
+	outline: none;
+	border-radius: 10px;
+	background: linear-gradient(0deg, #aaa, #ffcf0f0f);
+	
 }
