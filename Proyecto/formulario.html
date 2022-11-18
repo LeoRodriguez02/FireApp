@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="EstiloFooter.css">
 
 	<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
-	<script src="formulario.js"></script>
+	<script src="./formulario.js" type="module"></script>
 </head>
 <body>
 	<header>
@@ -27,22 +27,22 @@
 	<main>
 		<form>
 			<div class="options">
-				<label for="mensaje">En que estado esta el foco de incendio? (Seleccione alguna de las tres opciones):</label>
+				<label for="mensaje">¿En qué estado está el foco de incendio? (Seleccione alguna de las tres opciones):</label>
 				<button class="content" id="opcion_1">
-					<img src="B:\Oracle\Proyecto\fuego-1.2.png" alt= "Imagen de fuego recien iniciado">
-					<h3>Fuego recien iniciado</h3>
+					<img src="fuego-1.2.png" alt= "Imagen de fuego recien iniciado">
+					<h3>Fuego recién iniciado</h3>
 				</button>
 
 				<button class="content" id="opcion_2">
-					<img src="B:\Oracle\Proyecto\fuego-2.png" alt="Imagen de fuego moderado">
+					<img src="fuego-2.png" alt="Imagen de fuego moderado">
 					<h3>Fuego moderado</h3>
 				</button>
 
 				<button class="content" id="opcion_3">
-					<img src="B:\Oracle\Proyecto\fuego-3.1.png" alt="Imagen de fuego avanzado">
+					<img src="fuego-3.1.png" alt="Imagen de fuego avanzado">
 					<h3>Fuego avanzado</h3>
 				</button>
-				<label for="mensaje">Alguna indicacion o dato que crea de valor. (Opcional):</label>
+				<label for="mensaje">¿Alguna indicación o información que crea de valor? (Opcional):</label>
 				<textarea cols="20" rows="10" id="mensaje" class="input-padron"></textarea>
 
 				<input type="submit" value="Enviar formulario" class="enviar">

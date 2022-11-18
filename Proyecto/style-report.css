@@ -52,7 +52,7 @@ h3{
 	display: block;
 	width: 100%;
 	justify-content: center;
-	align-items: center;
+	text-align: center;
 }
 
 .content{
@@ -96,8 +96,6 @@ form label{
 }
 
 .input-padron{
-	display: block;
-	margin: 20px 0 20px;
 	padding: 10px 25px;
 	width: 40%;
 	resize: none;
