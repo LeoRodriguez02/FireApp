@@ -1,0 +1,126 @@
+body{
+    margin:0px
+}
+.barra {
+    font-family: 'Lato', sans-serif;
+    width: 15px;;
+    height: 15px;;
+    position:fixed;
+    transition: .4s all ;
+    z-index: 1;  
+}
+
+.barra ul{
+    padding:0px;
+    text-align: center;
+        
+}
+.barra  li{
+    transition:all .8s;
+    list-style: none; 
+}
+
+.barra a{
+    text-decoration: none;   
+    font-weight: normal;
+    transition: .5s all ;
+    font-size: 0px;
+    padding:0px;
+}
+
+.barra  h2{
+    text-align: center;
+    color:white;
+    padding:7px;
+    padding-bottom:7px;
+    font-size:0px;   
+}
+
+.barra img{
+    padding-top: 2px;
+    padding-right: 2px;
+}
+
+.barra:hover{
+    width: 70%;
+    height: 100vh;
+    background: rgba(5, 33, 51, 0.98);
+}
+.barra:hover h2{
+    padding:15px;
+    font-size: 35px;
+}
+.barra:hover a{ 
+    font-size:20px ;
+    color:white;
+    display: block;
+    padding:20px;
+}
+.barra:hover img{
+    height:0px;
+}
+
+
+.barra:hover li{
+    border-top:1px solid #2980B9;
+    
+    width:100%;
+        
+}
+.barra:hover ul:last-of-type{
+
+
+    border-bottom: 1px solid #2980B9;
+}
+
+.barra:hover a:hover{ 
+    font-size: 25px;
+    padding: 30px 0px; 
+    background: rgba(23, 78, 112, 0.98);  
+}
+
+@media (min-width: 768px){
+    .barra:hover{
+    width: 25%;
+    }
+}
+.mapa{
+    min-height: 100vh;
+}
+.botones{
+    text-align: right;
+    background: transparent;
+    width: 100vw;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.LgOut{
+    margin-right: 20px;
+    border-radius: 8px;
+    padding: 8px;
+    border:none;
+    background: #bbb;
+}
+.LgOut:hover{
+    background: #999;
+    transition: .3s;
+}
+.LgOut:active{
+    background: #555;
+}
+
+.report{
+    background: red;
+    width: 8%;
+	padding: 15px 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	border: none;
+	border-radius: 40px;
+	cursor: pointer;
+	margin: 0 85%;
+    position: absolute;
+    top: 90%;
+}
